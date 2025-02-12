@@ -1,24 +1,37 @@
 # IoT_instrumento_de_evaluacion_unidad_1
 
-##  
-### Descripcion
+## Ejercicio practico "semaforo con inyeccion de datos del sensor en postgres"
+### [Codigo en python]()
+### [Flujo en node red]()
+<img width="100" src=""/><br>
+### Circuito en wokwi
+<img width="100" src=""/><br>
+### [Video de demostracion en drive](https://drive.google.com/file/d/16ELO3tumQXUCZFagot8F7UuCoOamzyUE/view?usp=sharing)
 
-### Enlace al video de demostracion
-https://drive.google.com/file/d/1qbYqf8R_A-7fCYCmoLLtiiUeB3Xnd_zn/view?usp=sharing
+## Ejercico "Comunicacion con mosquito"
+### [Video demostrativo](https://drive.google.com/file/d/169woJ1rHG_9LYBYLidanCpeOMmOzFQUJ/view?usp=sharing)
 
-## [Ejercicios Practicos En Clase](https://github.com/RamirezLuisManuel/IoT_instrumento_de_evaluacion_unidad_2/tree/main/Ejercicios_Practicos_En_Clase)
+## Ejercicios con cautil:
+### Figura de buho
+<img width="100" src=""/><br>
+### Placa
+<img width="100" src=""/><br>
 
+## Ejercicio "Crud en SQLite"
+### [Video demostrativo]()
+### [Flujo en node red]()
+<img width="100" src=""/><br>
 
-## [Avance De Proyecto Navideno](https://github.com/RamirezLuisManuel/IoT_instrumento_de_evaluacion_unidad_2/tree/main/Avance_De_Proyecto_Navide%C3%B1o)
-### Descripcion
-Hasta el momento llevamos un avance significativo del proyecto ya que tenemos el circuito completo con las cosas que nos ha pedido el profesor hasta el momento, además hicimos una modificaciones al prototipo inicial ya que remplazamos un servomotor por un motor a pasos para que pueda mover la cabeza mas despacio.
-### Enlace al video de demostracion
-https://drive.google.com/file/d/17ZM4Cdppik4M2chRyfGExI-vm72nto2_/view?usp=sharing
+## Curso Python NetAcad
+Modulo 1:
+<img width="100" src="https://github.com/RamirezLuisManuel/Instrumento_Evaluacion_Unidad_1/blob/main/Curso_Python/Modulo_1.png?raw=true"/><br>
+Modulo 2:
+<img width="100" src="https://github.com/RamirezLuisManuel/Instrumento_Evaluacion_Unidad_1/blob/main/Curso_Python/Modulo_2.png?raw=true"/><br>
+Modulo 3:
+<img width="100" src="https://github.com/RamirezLuisManuel/Instrumento_Evaluacion_Unidad_1/blob/main/Curso_Python/Modulo_3.png?raw=true"/><br>
+Modulo 4:
+<img width="100" src="https://github.com/RamirezLuisManuel/Instrumento_Evaluacion_Unidad_1/blob/main/Curso_Python/Modulo_4.png?raw=true"/><br>
+Examan final:
+<img width="100" src="https://github.com/RamirezLuisManuel/Instrumento_Evaluacion_Unidad_1/blob/main/Curso_Python/Examen_final.png?raw=true"/><br>
 
-## [Curso Python NetAcad](https://github.com/RamirezLuisManuel/IoT_instrumento_de_evaluacion_unidad_2/tree/main/Curso_Python_NetAcad)
-A lo largo de este curso aprendí muchas cosas nuevas y reforcé muchas otras cosas que ya conocía, así que de esta manera puedo decir que mis conocimientos adquiridos a lo largo de este curso me pueden servir para muchísimas cosas una vez que entre al mundo laborar y profesional ya que muchas empresas trabajan con Python. 
-
- ## Coevaluación de mi compañero
-A lo largo del cuatrimestre y en todos los ejercicios que emos hechos, mi compañero trabajo muy bien ya que era muy buene para hacer códigos en Arduino, y me guiaba para armar el circuito cuando yo no entendía muy bien algún aspecto.
-Además, mi compañero trabaja muy bien en equipo, y él ya tenía conocimientos sobre Arduino, esto le ayudo a ser más rápido y eficiente.
-Así que en general fue es muy fácil trabajar con el ya que es muy dedicado y muy bueno.
+A lo largo de este curso, he adquirido nuevos conocimientos sobre Python asi como he podido reforzar algunos de los conocimientos con los que ya contaba. Puedo mencionar algunas cosas nuevas que aprendi como el uso de módulos y listas. Comprendo la importancia de un código claro y su aplicación en el mundo laboral. Ademas aprendi que Python es una gran tecnologia para el desarrollo ya que con Python se pueden crear muchisimas cosas mas complejas.
