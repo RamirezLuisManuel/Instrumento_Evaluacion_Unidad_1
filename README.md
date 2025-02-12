@@ -55,6 +55,6 @@ Modulo 3:
 Modulo 4:
 <img width="500" src="https://github.com/RamirezLuisManuel/Instrumento_Evaluacion_Unidad_1/blob/main/Curso_Python/Modulo_4.png?raw=true"/><br>
 Examan final:
-<img width="100" src="https://github.com/RamirezLuisManuel/Instrumento_Evaluacion_Unidad_1/blob/main/Curso_Python/Examen_final.png?raw=true"/><br>
+<img width="500" src="https://github.com/RamirezLuisManuel/Instrumento_Evaluacion_Unidad_1/blob/main/Curso_Python/Examen_final.png?raw=true"/><br>
 
 A lo largo de este curso, he adquirido nuevos conocimientos sobre Python asi como he podido reforzar algunos de los conocimientos con los que ya contaba. Puedo mencionar algunas cosas nuevas que aprendi como el uso de módulos y listas. Comprendo la importancia de un código claro y su aplicación en el mundo laboral. Ademas aprendi que Python es una gran tecnologia para el desarrollo ya que con Python se pueden crear muchisimas cosas mas complejas.
