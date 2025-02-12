@@ -1,30 +1,6 @@
 [
     {
-        "id": "be63fe0070059cfa",
-        "type": "tab",
-        "label": "Flow 1",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "f525f921035d829b",
-        "type": "tab",
-        "label": "Flow 2",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "e24acf2ef9a7bf7c",
-        "type": "tab",
-        "label": "Flow 3",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "f37a50b13b488e5e",
+        "id": "3b6a2dc454868611",
         "type": "tab",
         "label": "CRUD",
         "disabled": false,
@@ -32,754 +8,9 @@
         "env": []
     },
     {
-        "id": "4bf79d589442952b",
-        "type": "tab",
-        "label": "Flow 4",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "f0b5649d2b2a1823",
-        "type": "tab",
-        "label": "CRUD",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "34df2df97b41a861",
-        "type": "sqlitedb",
-        "db": "C:\\Users\\hisac\\OneDrive\\Documentos\\SQLite\\aiot.db",
-        "mode": "RWC"
-    },
-    {
-        "id": "f17c5aa4c2e15366",
-        "type": "ui_base",
-        "theme": {
-            "name": "theme-light",
-            "lightTheme": {
-                "default": "#0094CE",
-                "baseColor": "#0094CE",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": true,
-                "reset": false
-            },
-            "darkTheme": {
-                "default": "#097479",
-                "baseColor": "#097479",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
-            },
-            "customTheme": {
-                "name": "Untitled Theme 1",
-                "default": "#4B7930",
-                "baseColor": "#4B7930",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-            },
-            "themeState": {
-                "base-color": {
-                    "default": "#0094CE",
-                    "value": "#0094CE",
-                    "edited": false
-                },
-                "page-titlebar-backgroundColor": {
-                    "value": "#0094CE",
-                    "edited": false
-                },
-                "page-backgroundColor": {
-                    "value": "#fafafa",
-                    "edited": false
-                },
-                "page-sidebar-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-textColor": {
-                    "value": "#1bbfff",
-                    "edited": false
-                },
-                "group-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "widget-textColor": {
-                    "value": "#111111",
-                    "edited": false
-                },
-                "widget-backgroundColor": {
-                    "value": "#0094ce",
-                    "edited": false
-                },
-                "widget-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "base-font": {
-                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-                }
-            },
-            "angularTheme": {
-                "primary": "indigo",
-                "accents": "blue",
-                "warn": "red",
-                "background": "grey",
-                "palette": "light"
-            }
-        },
-        "site": {
-            "name": "Node-RED Dashboard",
-            "hideToolbar": "false",
-            "allowSwipe": "false",
-            "lockMenu": "false",
-            "allowTempTheme": "true",
-            "dateFormat": "DD/MM/YYYY",
-            "sizes": {
-                "sx": 48,
-                "sy": 48,
-                "gx": 6,
-                "gy": 6,
-                "cx": 6,
-                "cy": 6,
-                "px": 0,
-                "py": 0
-            }
-        }
-    },
-    {
-        "id": "2ad7b65e3e0cac03",
-        "type": "ui_tab",
-        "name": "Base de Datos",
-        "icon": "dashboard",
-        "order": 1,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "8bc446b36747a98d",
-        "type": "ui_group",
-        "name": "Ejemplo1",
-        "tab": "2ad7b65e3e0cac03",
-        "order": 1,
-        "disp": true,
-        "width": 13,
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "776f82030eef4b92",
-        "type": "ui_group",
-        "name": "Lista Detalle Sensor",
-        "tab": "2ad7b65e3e0cac03",
-        "order": 2,
-        "disp": true,
-        "width": 13,
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "bf93307799889425",
-        "type": "ui_group",
-        "name": "Lista Usuarios",
-        "tab": "2ad7b65e3e0cac03",
-        "order": 3,
-        "disp": true,
-        "width": 13,
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "4cba4e0772cf745e",
-        "type": "mqtt-broker",
-        "name": "",
-        "broker": "broker.emqx.io",
-        "port": 1883,
-        "clientid": "",
-        "autoConnect": true,
-        "usetls": false,
-        "protocolVersion": 4,
-        "keepalive": 60,
-        "cleansession": true,
-        "autoUnsubscribe": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthRetain": "false",
-        "birthPayload": "",
-        "birthMsg": {},
-        "closeTopic": "",
-        "closeQos": "0",
-        "closeRetain": "false",
-        "closePayload": "",
-        "closeMsg": {},
-        "willTopic": "",
-        "willQos": "0",
-        "willRetain": "false",
-        "willPayload": "",
-        "willMsg": {},
-        "userProps": "",
-        "sessionExpiry": ""
-    },
-    {
-        "id": "13e561a89e7f69b9",
-        "type": "sqlitedb",
-        "db": "/Users/abc/Downloads/sqlite/ddi2.db",
-        "mode": "RWC"
-    },
-    {
-        "id": "e5564457bb4df4bb",
-        "type": "sqlitedb",
-        "db": "C:\\Users\\Ces4R\\aiot01.db",
-        "mode": "RWC"
-    },
-    {
-        "id": "6717c00607a4792f",
-        "type": "inject",
-        "z": "be63fe0070059cfa",
-        "name": "LISTAR",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 90,
-        "y": 100,
-        "wires": [
-            [
-                "40dfe5b56c806c69"
-            ]
-        ]
-    },
-    {
-        "id": "40dfe5b56c806c69",
-        "type": "function",
-        "z": "be63fe0070059cfa",
-        "name": "selectSensors",
-        "func": "msg.topic=\"SELECT * FROM sensors;\";\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 300,
-        "y": 100,
-        "wires": [
-            [
-                "48eb74b59a9ec033"
-            ]
-        ]
-    },
-    {
-        "id": "48eb74b59a9ec033",
-        "type": "sqlite",
-        "z": "be63fe0070059cfa",
-        "mydb": "34df2df97b41a861",
-        "sqlquery": "msg.topic",
-        "sql": "",
-        "name": "CONEXION DB",
-        "x": 480,
-        "y": 100,
-        "wires": [
-            [
-                "e40a596bdcfc7276"
-            ]
-        ]
-    },
-    {
-        "id": "e40a596bdcfc7276",
-        "type": "ui_table",
-        "z": "be63fe0070059cfa",
-        "group": "8bc446b36747a98d",
-        "name": "",
-        "order": 1,
-        "width": 13,
-        "height": 5,
-        "columns": [],
-        "outputs": 0,
-        "cts": false,
-        "x": 670,
-        "y": 100,
-        "wires": []
-    },
-    {
-        "id": "5b17c82764628e60",
-        "type": "sqlite",
-        "z": "f525f921035d829b",
-        "mydb": "34df2df97b41a861",
-        "sqlquery": "fixed",
-        "sql": "SELECT * FROM users;",
-        "name": "selectUsers",
-        "x": 470,
-        "y": 140,
-        "wires": [
-            [
-                "55270b0d4d11ceea",
-                "5b7a76495a5dea45"
-            ]
-        ]
-    },
-    {
-        "id": "55270b0d4d11ceea",
-        "type": "ui_table",
-        "z": "f525f921035d829b",
-        "group": "bf93307799889425",
-        "name": "",
-        "order": 1,
-        "width": 13,
-        "height": 5,
-        "columns": [],
-        "outputs": 0,
-        "cts": false,
-        "x": 630,
-        "y": 140,
-        "wires": []
-    },
-    {
-        "id": "23a705d9f43b102d",
-        "type": "inject",
-        "z": "f525f921035d829b",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 300,
-        "y": 140,
-        "wires": [
-            [
-                "5b17c82764628e60"
-            ]
-        ]
-    },
-    {
-        "id": "7685abd45c8a452f",
-        "type": "sqlite",
-        "z": "f525f921035d829b",
-        "mydb": "34df2df97b41a861",
-        "sqlquery": "fixed",
-        "sql": "SELECT sensor_details.id, \n       users.login, \n       sensors.name, \n       sensor_details.value,\n       sensor_details.record_at \nFROM sensor_details, users, sensors \nWHERE sensor_details.sensor_id=sensors.id \nAND sensor_details.user_id=users.id;",
-        "name": "selectSensorsDetails",
-        "x": 440,
-        "y": 280,
-        "wires": [
-            [
-                "49ba303a41dbb8f3",
-                "5b7a76495a5dea45"
-            ]
-        ]
-    },
-    {
-        "id": "49ba303a41dbb8f3",
-        "type": "ui_table",
-        "z": "f525f921035d829b",
-        "group": "776f82030eef4b92",
-        "name": "",
-        "order": 1,
-        "width": 13,
-        "height": 5,
-        "columns": [],
-        "outputs": 0,
-        "cts": false,
-        "x": 630,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "1712606eef6e9db9",
-        "type": "inject",
-        "z": "f525f921035d829b",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 240,
-        "y": 280,
-        "wires": [
-            [
-                "7685abd45c8a452f"
-            ]
-        ]
-    },
-    {
-        "id": "5b7a76495a5dea45",
-        "type": "debug",
-        "z": "f525f921035d829b",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 700,
-        "y": 200,
-        "wires": []
-    },
-    {
-        "id": "c88e9b1ddd04ef06",
-        "type": "mqtt in",
-        "z": "e24acf2ef9a7bf7c",
-        "name": "Registro de Distancia",
-        "topic": "ich/salon/distancia",
-        "qos": "2",
-        "datatype": "auto-detect",
-        "broker": "4cba4e0772cf745e",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 200,
-        "y": 200,
-        "wires": [
-            [
-                "722f1bbeead6c9c2"
-            ]
-        ]
-    },
-    {
-        "id": "17adf242042d5609",
-        "type": "sqlite",
-        "z": "e24acf2ef9a7bf7c",
-        "mydb": "34df2df97b41a861",
-        "sqlquery": "msg.topic",
-        "sql": "",
-        "name": "Conexion",
-        "x": 620,
-        "y": 200,
-        "wires": [
-            [
-                "8bbfa48b7e388f2d"
-            ]
-        ]
-    },
-    {
-        "id": "722f1bbeead6c9c2",
-        "type": "function",
-        "z": "e24acf2ef9a7bf7c",
-        "name": "registrarDistancia",
-        "func": "let distancia = msg.payload;\nmsg.topic = \"INSERT INTO sensor_details(sensor_id, user_id, value) VALUES(2,1, '\"+distancia+\"');\";\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 430,
-        "y": 200,
-        "wires": [
-            [
-                "17adf242042d5609"
-            ]
-        ]
-    },
-    {
-        "id": "8bbfa48b7e388f2d",
-        "type": "debug",
-        "z": "e24acf2ef9a7bf7c",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 780,
-        "y": 200,
-        "wires": []
-    },
-    {
-        "id": "7f51339f0d673a26",
-        "type": "http in",
-        "z": "f37a50b13b488e5e",
-        "name": "",
-        "url": "/user/index",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 160,
-        "y": 240,
-        "wires": [
-            [
-                "48e6d9a2642df5a7"
-            ]
-        ]
-    },
-    {
-        "id": "31234fbc98a35130",
-        "type": "http in",
-        "z": "f37a50b13b488e5e",
-        "name": "",
-        "url": "/user/insert",
-        "method": "post",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 160,
-        "y": 300,
-        "wires": [
-            [
-                "4c25499462a70504"
-            ]
-        ]
-    },
-    {
-        "id": "534b5d78991344f8",
-        "type": "http in",
-        "z": "f37a50b13b488e5e",
-        "name": "",
-        "url": "/user/update",
-        "method": "put",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 170,
-        "y": 360,
-        "wires": [
-            [
-                "a382113e5b733219"
-            ]
-        ]
-    },
-    {
-        "id": "09ecb46a8773c434",
-        "type": "http in",
-        "z": "f37a50b13b488e5e",
-        "name": "",
-        "url": "/user/delete",
-        "method": "delete",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 170,
-        "y": 420,
-        "wires": [
-            [
-                "82a41e08f929ee95"
-            ]
-        ]
-    },
-    {
-        "id": "75ac9b7794d63756",
-        "type": "sqlite",
-        "z": "f37a50b13b488e5e",
-        "mydb": "34df2df97b41a861",
-        "sqlquery": "msg.topic",
-        "sql": "",
-        "name": "aiot.db",
-        "x": 550,
-        "y": 240,
-        "wires": [
-            [
-                "566338c384373580"
-            ]
-        ]
-    },
-    {
-        "id": "48e6d9a2642df5a7",
-        "type": "function",
-        "z": "f37a50b13b488e5e",
-        "name": "getUsers",
-        "func": "msg.topic = \"SELECT * FROM users;\";\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 360,
-        "y": 240,
-        "wires": [
-            [
-                "75ac9b7794d63756"
-            ]
-        ]
-    },
-    {
-        "id": "4c25499462a70504",
-        "type": "function",
-        "z": "f37a50b13b488e5e",
-        "name": "insertUsers",
-        "func": "msg.topic = \"INSERT INTO users (login, pass) VALUES('\" + msg.payload.login + \"', '\" + msg.payload.pass + \"');\";\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 370,
-        "y": 300,
-        "wires": [
-            [
-                "d85cbfbc7dfcfe81"
-            ]
-        ]
-    },
-    {
-        "id": "d85cbfbc7dfcfe81",
-        "type": "sqlite",
-        "z": "f37a50b13b488e5e",
-        "mydb": "34df2df97b41a861",
-        "sqlquery": "msg.topic",
-        "sql": "",
-        "name": "aiot.db",
-        "x": 550,
-        "y": 300,
-        "wires": [
-            [
-                "a1911ac27489c05f"
-            ]
-        ]
-    },
-    {
-        "id": "a382113e5b733219",
-        "type": "function",
-        "z": "f37a50b13b488e5e",
-        "name": "updateUsers",
-        "func": "msg.topic = \"UPDATE users SET pass = '\" + msg.payload.pass + \"', login= '\" + msg.payload.login + \"' WHERE id =\"+msg.payload.id+\";\";\nreturn msg; ",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 370,
-        "y": 360,
-        "wires": [
-            [
-                "7a8c523385a22c69"
-            ]
-        ]
-    },
-    {
-        "id": "82a41e08f929ee95",
-        "type": "function",
-        "z": "f37a50b13b488e5e",
-        "name": "deleteUser",
-        "func": "msg.topic = \"DELETE FROM users \"+\n \"WHERE id =\"+msg.payload.id+\";\";\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 370,
-        "y": 420,
-        "wires": [
-            [
-                "c3bb27b6440a852a"
-            ]
-        ]
-    },
-    {
-        "id": "7a8c523385a22c69",
-        "type": "sqlite",
-        "z": "f37a50b13b488e5e",
-        "mydb": "34df2df97b41a861",
-        "sqlquery": "msg.topic",
-        "sql": "",
-        "name": "aiot.db",
-        "x": 550,
-        "y": 360,
-        "wires": [
-            [
-                "eb241915c1e439a4"
-            ]
-        ]
-    },
-    {
-        "id": "c3bb27b6440a852a",
-        "type": "sqlite",
-        "z": "f37a50b13b488e5e",
-        "mydb": "34df2df97b41a861",
-        "sqlquery": "msg.topic",
-        "sql": "",
-        "name": "aiot.db",
-        "x": 550,
-        "y": 420,
-        "wires": [
-            [
-                "eb241915c1e439a4"
-            ]
-        ]
-    },
-    {
-        "id": "566338c384373580",
-        "type": "json",
-        "z": "f37a50b13b488e5e",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 690,
-        "y": 240,
-        "wires": [
-            [
-                "b9a922579b5e8756"
-            ]
-        ]
-    },
-    {
-        "id": "b9a922579b5e8756",
-        "type": "template",
-        "z": "f37a50b13b488e5e",
-        "name": "",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!DOCTYPE html>\n<html lang=\"en-GB\">\n<head>\n<title>Users</title>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\" />\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-timepicker/0.5.2/css/bootstrap-timepicker.min.css\" />\n<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js\"></script>;\n<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>;\n<link type=\"text/css\" rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.css\" />\n<link type=\"text/css\" rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid-theme.min.css\" />\n<script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.js\"></script >\n\n<script type=\"text/javascript\">\n$(function () {\n\nvar db = {{#payload}}{{{.}}}{{/payload}};\n\n$(\"#jsgrid\").jsGrid({\nwidth: \"100%\",\ninserting: true,\nediting: true,\nsorting: true,\npaging: true,\n\ndata: db,\n\nfields: [\n{ title:\"ID\", name: \"id\", type: \"text\", width: 50,readOnly:true },\n{ title:\"Login\", name: \"login\", type: \"text\", width: 50 },\n{ title:\"Password\", name: \"pass\", type: \"text\", width: 50 },\n{ title:\"Record At\", name: \"record_at\",\n type:\"text\", width: 50, readOnly:true},\n{ type: \"control\" }\n],\n\ncontroller: {\ninsertItem: function(item) {\nreturn $.ajax({\ntype: \"POST\",\nurl: \"/user/insert\",\ndata: item\n});\n},\nupdateItem: function(item) {\nreturn $.ajax({\ntype: \"PUT\",\nurl: \"/user/update\",\ndata: item\n});\n},\ndeleteItem: function(item) {\nreturn $.ajax({\ntype: \"DELETE\",\nurl: \"/user/delete\",\ndata: item\n});\n}\n}\n});\n});\n\n</script>\n</head>\n<body class=\"container\">\n<section class=\"row\">\n\n<div class=\"col-md-6\"></div>\n<div class=\"col-md-6\" id=\"jsgrid\">\n</div>\n</section>\n</body>\n</html>",
-        "output": "str",
-        "x": 860,
-        "y": 240,
-        "wires": [
-            [
-                "c4e1ba90269cdf91"
-            ]
-        ]
-    },
-    {
-        "id": "c4e1ba90269cdf91",
+        "id": "4b254d49b8cfdd30",
         "type": "http response",
-        "z": "f37a50b13b488e5e",
+        "z": "3b6a2dc454868611",
         "name": "",
         "statusCode": "",
         "headers": {},
@@ -788,30 +19,10 @@
         "wires": []
     },
     {
-        "id": "a1911ac27489c05f",
-        "type": "function",
-        "z": "f37a50b13b488e5e",
-        "name": "getLastSaved",
-        "func": "msg.topic = \n\"SELECT * FROM users WHERE id =\"+ \n\"(SELECT MAX(id) FROM users);\";\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 720,
-        "y": 440,
-        "wires": [
-            [
-                "8f65d8bf2598e338"
-            ]
-        ]
-    },
-    {
-        "id": "8f65d8bf2598e338",
+        "id": "0bc467525f427bfe",
         "type": "sqlite",
-        "z": "f37a50b13b488e5e",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
         "name": "aiot.db",
@@ -819,81 +30,14 @@
         "y": 420,
         "wires": [
             [
-                "218d469cfd50329c"
+                "5b1ef84deb2e759d"
             ]
         ]
     },
     {
-        "id": "218d469cfd50329c",
+        "id": "5b1ef84deb2e759d",
         "type": "function",
-        "z": "f37a50b13b488e5e",
-        "name": "showSaved",
-        "func": "var item = {\n    id: msg.payload[0].id,\n    pass: msg.payload[0].pass,\n    login: msg.payload[0].login,\n    record_at: msg.payload[0].record_at\n}\nif (item.id == \"\" || item.pass == \"\" ||\n    item.login ==\"\" || item.record_at ==\"\"){\n    msg.statusCode=400,\n    msg.payload = null;\n    return msg;\n}\nmsg.payload = item;\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 950,
-        "y": 340,
-        "wires": [
-            [
-                "c4e1ba90269cdf91"
-            ]
-        ]
-    },
-    {
-        "id": "eb241915c1e439a4",
-        "type": "function",
-        "z": "f37a50b13b488e5e",
-        "name": "reload",
-        "func": "msg.payload = msg.result;\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 750,
-        "y": 360,
-        "wires": [
-            [
-                "c4e1ba90269cdf91"
-            ]
-        ]
-    },
-    {
-        "id": "b8c2a95df2e85e2d",
-        "type": "http response",
-        "z": "f0b5649d2b2a1823",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 1050,
-        "y": 260,
-        "wires": []
-    },
-    {
-        "id": "5ba9be9ac9d2bf6e",
-        "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
-        "sqlquery": "msg.topic",
-        "sql": "",
-        "name": "ddi2",
-        "x": 910,
-        "y": 420,
-        "wires": [
-            [
-                "5b09fc0442f5d89f"
-            ]
-        ]
-    },
-    {
-        "id": "5b09fc0442f5d89f",
-        "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "showSaved",
         "func": "var item = {\n    id: msg.payload[0].id,\n    login: msg.payload[0].login,\n    pass: msg.payload[0].pass,\n    record_at: msg.payload[0].record_at\n}\nif (item.id == \"\" || item.login == \"\" ||\n    item.pass ==\"\" || item.record_at ==\"\"){\n    msg.statusCode=400,\n    msg.payload = null;\n    return msg;\n}\nmsg.payload = item;\nreturn msg;",
         "outputs": 1,
@@ -906,14 +50,14 @@
         "y": 340,
         "wires": [
             [
-                "b8c2a95df2e85e2d"
+                "4b254d49b8cfdd30"
             ]
         ]
     },
     {
-        "id": "cd86d09a4cbcd053",
+        "id": "4d877b9ae225c1f3",
         "type": "http in",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "url": "/sensors/index",
         "method": "get",
@@ -923,14 +67,14 @@
         "y": 580,
         "wires": [
             [
-                "9c27c1a2edc52eae"
+                "e39bb7c158c679e0"
             ]
         ]
     },
     {
-        "id": "3c2aba89d2939f4a",
+        "id": "131ea1d034281a8c",
         "type": "http in",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "url": "/sensors/insert",
         "method": "post",
@@ -940,14 +84,14 @@
         "y": 640,
         "wires": [
             [
-                "e55b3bae7a288d6c"
+                "c68f855066f81846"
             ]
         ]
     },
     {
-        "id": "053bd2d457adf2bf",
+        "id": "d32fac82317d2e07",
         "type": "http in",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "url": "/sensors/update",
         "method": "put",
@@ -957,14 +101,14 @@
         "y": 700,
         "wires": [
             [
-                "bb9a75e7f83a9f7e"
+                "1423ae33291b9241"
             ]
         ]
     },
     {
-        "id": "09359cb257465df1",
+        "id": "e6c046d93b552d35",
         "type": "http in",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "url": "/sensors/delete",
         "method": "delete",
@@ -974,30 +118,30 @@
         "y": 760,
         "wires": [
             [
-                "a993d85b4a6d9b0c"
+                "e820cd1785dac147"
             ]
         ]
     },
     {
-        "id": "daec4ecd14a8c9eb",
+        "id": "8aaabd92458a472b",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ConexionDB",
-        "x": 530,
+        "name": "aiot.db",
+        "x": 510,
         "y": 580,
         "wires": [
             [
-                "1cb60b3fd7e6a6e7"
+                "042fe9968842c133"
             ]
         ]
     },
     {
-        "id": "9c27c1a2edc52eae",
+        "id": "e39bb7c158c679e0",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "getSensores",
         "func": "msg.topic = \"SELECT * FROM sensors;\";\nreturn msg;",
         "outputs": 1,
@@ -1010,14 +154,14 @@
         "y": 580,
         "wires": [
             [
-                "daec4ecd14a8c9eb"
+                "8aaabd92458a472b"
             ]
         ]
     },
     {
-        "id": "e55b3bae7a288d6c",
+        "id": "c68f855066f81846",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "insertSensores",
         "func": "msg.topic = \"INSERT INTO sensors (name,type) VALUES('\" + msg.payload.name + \"', '\" + msg.payload.type + \"');\";\nreturn msg;\n",
         "outputs": 1,
@@ -1030,30 +174,30 @@
         "y": 640,
         "wires": [
             [
-                "2cb379576b2a0885"
+                "2c30219cbe223239"
             ]
         ]
     },
     {
-        "id": "2cb379576b2a0885",
+        "id": "2c30219cbe223239",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ConexionDB",
-        "x": 530,
+        "name": "aiot.db",
+        "x": 510,
         "y": 640,
         "wires": [
             [
-                "33fc8906d1700d1f"
+                "3947581198c8637a"
             ]
         ]
     },
     {
-        "id": "bb9a75e7f83a9f7e",
+        "id": "1423ae33291b9241",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "updateSensores",
         "func": "msg.topic = \"UPDATE sensors SET name = '\" + msg.payload.name + \"', type= '\" + msg.payload.type + \"' WHERE id =\"+msg.payload.id+\";\";\nreturn msg; ",
         "outputs": 1,
@@ -1066,14 +210,14 @@
         "y": 700,
         "wires": [
             [
-                "55495a5f2d82b0a4"
+                "5450cd0e66c9b039"
             ]
         ]
     },
     {
-        "id": "a993d85b4a6d9b0c",
+        "id": "e820cd1785dac147",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "deleteSensores",
         "func": "msg.topic = \"DELETE FROM sensors\"+\n \"WHERE id =\"+msg.payload.id+\";\";\nreturn msg;",
         "outputs": 1,
@@ -1086,46 +230,46 @@
         "y": 760,
         "wires": [
             [
-                "3002608f602e2e6c"
+                "5576c957ea9fd43c"
             ]
         ]
     },
     {
-        "id": "55495a5f2d82b0a4",
+        "id": "5450cd0e66c9b039",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ConexionDB",
-        "x": 530,
+        "name": "aiot.db",
+        "x": 510,
         "y": 700,
         "wires": [
             [
-                "88c8c315981258d6"
+                "e22de52f66dc79b5"
             ]
         ]
     },
     {
-        "id": "3002608f602e2e6c",
+        "id": "5576c957ea9fd43c",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ConexionDB",
-        "x": 530,
+        "name": "aiot.db",
+        "x": 510,
         "y": 760,
         "wires": [
             [
-                "88c8c315981258d6"
+                "e22de52f66dc79b5"
             ]
         ]
     },
     {
-        "id": "1cb60b3fd7e6a6e7",
+        "id": "042fe9968842c133",
         "type": "json",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "property": "payload",
         "action": "",
@@ -1134,14 +278,14 @@
         "y": 580,
         "wires": [
             [
-                "34745e9569597b01"
+                "c97c700a6264404c"
             ]
         ]
     },
     {
-        "id": "34745e9569597b01",
+        "id": "c97c700a6264404c",
         "type": "template",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "field": "payload",
         "fieldType": "msg",
@@ -1153,14 +297,14 @@
         "y": 580,
         "wires": [
             [
-                "925307c0832c2367"
+                "a4dc7c2c19909ea9"
             ]
         ]
     },
     {
-        "id": "33fc8906d1700d1f",
+        "id": "3947581198c8637a",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "getLastSaved",
         "func": "msg.topic = \n\"SELECT * FROM sensors WHERE id =\"+ \n\"(SELECT MAX(id) FROM sensors);\";\nreturn msg;",
         "outputs": 1,
@@ -1173,30 +317,30 @@
         "y": 800,
         "wires": [
             [
-                "93bf242f406bae6b"
+                "c532f0ebecb61a38"
             ]
         ]
     },
     {
-        "id": "93bf242f406bae6b",
+        "id": "c532f0ebecb61a38",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ddi2",
+        "name": "aiot.db",
         "x": 870,
         "y": 760,
         "wires": [
             [
-                "85ae293fd16646be"
+                "26d74745c190644e"
             ]
         ]
     },
     {
-        "id": "85ae293fd16646be",
+        "id": "26d74745c190644e",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "showSaved",
         "func": "var item = {\n    id: msg.payload[0].id,\n    name: msg.payload[0].name,\n    type: msg.payload[0].type,\n    record_at: msg.payload[0].record_at\n}\nif (item.id == \"\" || item.name == \"\" ||\n    item.type ==\"\" || item.record_at ==\"\"){\n    msg.statusCode=400,\n    msg.payload = null;\n    return msg;\n}\nmsg.payload = item;\nreturn msg;",
         "outputs": 1,
@@ -1209,14 +353,14 @@
         "y": 680,
         "wires": [
             [
-                "925307c0832c2367"
+                "a4dc7c2c19909ea9"
             ]
         ]
     },
     {
-        "id": "88c8c315981258d6",
+        "id": "e22de52f66dc79b5",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "reload",
         "func": "msg.payload = msg.result;\nreturn msg;",
         "outputs": 1,
@@ -1229,14 +373,14 @@
         "y": 700,
         "wires": [
             [
-                "925307c0832c2367"
+                "a4dc7c2c19909ea9"
             ]
         ]
     },
     {
-        "id": "4f97327784ed68af",
+        "id": "a792b6c5c7be69ee",
         "type": "http in",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "url": "/sensordetails/index",
         "method": "get",
@@ -1246,14 +390,14 @@
         "y": 880,
         "wires": [
             [
-                "b66895995194f51a"
+                "f7515af6d2273af3"
             ]
         ]
     },
     {
-        "id": "aaea1921a775bd20",
+        "id": "c4bc3883ad021416",
         "type": "http in",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "url": "/sensordetails/insert",
         "method": "post",
@@ -1263,14 +407,14 @@
         "y": 940,
         "wires": [
             [
-                "8713f02b7bc95430"
+                "a8bacef5ecbe116f"
             ]
         ]
     },
     {
-        "id": "c8bd8b5c2408cf2e",
+        "id": "3bafd057c0e6c59a",
         "type": "http in",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "url": "/sensordetails/update",
         "method": "put",
@@ -1280,14 +424,14 @@
         "y": 1000,
         "wires": [
             [
-                "4071fc7b20a29f37"
+                "528f6e4b69419ffc"
             ]
         ]
     },
     {
-        "id": "6de93b9cf91a11bf",
+        "id": "3c50900737f14c6e",
         "type": "http in",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "url": "/sensordetails/delete",
         "method": "delete",
@@ -1297,30 +441,30 @@
         "y": 1060,
         "wires": [
             [
-                "8b32b14c09e73bd8"
+                "736d5fa297b2a540"
             ]
         ]
     },
     {
-        "id": "ac09bd80ba1bbfc4",
+        "id": "6bd671ace3822b16",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ConexionDB",
-        "x": 530,
+        "name": "aiot.db",
+        "x": 510,
         "y": 880,
         "wires": [
             [
-                "21f5adf8767b0217"
+                "f425af59a8e79f8a"
             ]
         ]
     },
     {
-        "id": "b66895995194f51a",
+        "id": "f7515af6d2273af3",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "getSensor",
         "func": "msg.topic = \"SELECT * FROM sensor_details;\";\nreturn msg;",
         "outputs": 1,
@@ -1333,14 +477,14 @@
         "y": 880,
         "wires": [
             [
-                "ac09bd80ba1bbfc4"
+                "6bd671ace3822b16"
             ]
         ]
     },
     {
-        "id": "8713f02b7bc95430",
+        "id": "a8bacef5ecbe116f",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "insertSensor",
         "func": "msg.topic = \"INSERT INTO sensor_details (sensor_id, user_id, value) VALUES ('\" + msg.payload.sensor_id + \"', '\" + msg.payload.user_id + \"', '\" + msg.payload.valor + \"');\";\nreturn msg;\n",
         "outputs": 1,
@@ -1353,30 +497,30 @@
         "y": 940,
         "wires": [
             [
-                "eea43b7b18449174"
+                "65d9a46c83925e87"
             ]
         ]
     },
     {
-        "id": "eea43b7b18449174",
+        "id": "65d9a46c83925e87",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ConexionDB",
-        "x": 530,
+        "name": "aiot.db",
+        "x": 510,
         "y": 940,
         "wires": [
             [
-                "e1e9981282e6c23d"
+                "2bdec7d2a77d4138"
             ]
         ]
     },
     {
-        "id": "4071fc7b20a29f37",
+        "id": "528f6e4b69419ffc",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "updateSensor",
         "func": "msg.topic = \"UPDATE sensor_details \" +\n            \"SET valor = '\" + msg.payload.valor + \"', \" +\n            \"sensor_id = '\" + msg.payload.sensor_id + \"', \" +\n            \"user_id = '\" + msg.payload.user_id + \"' \" +\n            \"WHERE id = '\" + msg.payload.id + \"';\";\nreturn msg; ",
         "outputs": 1,
@@ -1389,14 +533,14 @@
         "y": 1000,
         "wires": [
             [
-                "a9fc699cd4abf801"
+                "de681fcb9b28695e"
             ]
         ]
     },
     {
-        "id": "8b32b14c09e73bd8",
+        "id": "736d5fa297b2a540",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "deleteSensor",
         "func": "msg.topic = \"DELETE FROM sensor_details WHERE id = '\" +\n    msg.payload.id + \"';\";\nreturn msg;",
         "outputs": 1,
@@ -1409,46 +553,46 @@
         "y": 1060,
         "wires": [
             [
-                "7a3101dacd8e075d"
+                "772820b4ddce5217"
             ]
         ]
     },
     {
-        "id": "a9fc699cd4abf801",
+        "id": "de681fcb9b28695e",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ConexionDB",
-        "x": 530,
+        "name": "aiot.db",
+        "x": 510,
         "y": 1000,
         "wires": [
             [
-                "2c136ccfc6498293"
+                "dc76b951bd3818d3"
             ]
         ]
     },
     {
-        "id": "7a3101dacd8e075d",
+        "id": "772820b4ddce5217",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ConexionDB",
-        "x": 530,
+        "name": "aiot.db",
+        "x": 510,
         "y": 1060,
         "wires": [
             [
-                "2c136ccfc6498293"
+                "dc76b951bd3818d3"
             ]
         ]
     },
     {
-        "id": "21f5adf8767b0217",
+        "id": "f425af59a8e79f8a",
         "type": "json",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "property": "payload",
         "action": "",
@@ -1457,14 +601,14 @@
         "y": 880,
         "wires": [
             [
-                "3fd7371b53a128e0"
+                "4d5696b1441b679d"
             ]
         ]
     },
     {
-        "id": "3fd7371b53a128e0",
+        "id": "4d5696b1441b679d",
         "type": "template",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "field": "payload",
         "fieldType": "msg",
@@ -1476,14 +620,14 @@
         "y": 880,
         "wires": [
             [
-                "8ee5ce0bf656637b"
+                "1b80bdd463a56323"
             ]
         ]
     },
     {
-        "id": "e1e9981282e6c23d",
+        "id": "2bdec7d2a77d4138",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "getLastSaved",
         "func": "msg.topic = \n\"SELECT * FROM sensor_details WHERE id =\"+ \n\"(SELECT MAX(id) FROM sensor_details);\";\nreturn msg;",
         "outputs": 1,
@@ -1496,30 +640,30 @@
         "y": 1100,
         "wires": [
             [
-                "1a29bdc0e50eae0a"
+                "4ee89b815ad6e46c"
             ]
         ]
     },
     {
-        "id": "1a29bdc0e50eae0a",
+        "id": "4ee89b815ad6e46c",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ddi2",
+        "name": "aiot.db",
         "x": 870,
         "y": 1060,
         "wires": [
             [
-                "0f31291d4a4ec347"
+                "4c4486a118e5470b"
             ]
         ]
     },
     {
-        "id": "0f31291d4a4ec347",
+        "id": "4c4486a118e5470b",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "showSaved",
         "func": "var item = {\n    id: msg.payload[0].id,\n    sensor_id: msg.payload[0].sensor_id,\n    user_id: msg.payload[0].user_id,\n    value: msg.payload[0].value,\n    record_at: msg.payload[0].record_at\n}\nif (item.id == \"\" || item.name == \"\" ||\n    item.type ==\"\" || item.record_at ==\"\"){\n    msg.statusCode=400,\n    msg.payload = null;\n    return msg;\n}\nmsg.payload = item;\nreturn msg;",
         "outputs": 1,
@@ -1532,14 +676,14 @@
         "y": 1000,
         "wires": [
             [
-                "8ee5ce0bf656637b"
+                "1b80bdd463a56323"
             ]
         ]
     },
     {
-        "id": "2c136ccfc6498293",
+        "id": "dc76b951bd3818d3",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "reload",
         "func": "msg.payload = msg.result;\nreturn msg;",
         "outputs": 1,
@@ -1552,14 +696,14 @@
         "y": 1000,
         "wires": [
             [
-                "8ee5ce0bf656637b"
+                "1b80bdd463a56323"
             ]
         ]
     },
     {
-        "id": "a54de29902419fcd",
+        "id": "e6888c6b1b9723fb",
         "type": "http in",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "url": "/user/index",
         "method": "get",
@@ -1569,14 +713,14 @@
         "y": 240,
         "wires": [
             [
-                "928b76ab5408dd3b"
+                "d19d48874fcd4fc8"
             ]
         ]
     },
     {
-        "id": "edf7e466595eeb86",
+        "id": "5e8a579e5c83fd9e",
         "type": "http in",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "url": "/user/insert",
         "method": "post",
@@ -1586,14 +730,14 @@
         "y": 300,
         "wires": [
             [
-                "6c47b10d2e827288"
+                "8513e7295079a550"
             ]
         ]
     },
     {
-        "id": "6b013ad3bd2c5c0a",
+        "id": "8c6cb742c0ad6d58",
         "type": "http in",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "url": "/user/update",
         "method": "put",
@@ -1603,14 +747,14 @@
         "y": 360,
         "wires": [
             [
-                "00bcc5a7106e0548"
+                "1df792bc7384b47f"
             ]
         ]
     },
     {
-        "id": "63fcf7f723edb0a9",
+        "id": "d268840988aaeb76",
         "type": "http in",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "url": "/user/delete",
         "method": "delete",
@@ -1620,32 +764,32 @@
         "y": 420,
         "wires": [
             [
-                "c9bfd86db88f3bc7"
+                "a06f6760c656f8a8"
             ]
         ]
     },
     {
-        "id": "97a4990893bcdfec",
+        "id": "03a1ed159679f82a",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ConexionDB",
-        "x": 570,
+        "name": "aiot.db",
+        "x": 550,
         "y": 240,
         "wires": [
             [
-                "ba6e5d2afc4d8886"
+                "9a0176d89711710c"
             ]
         ]
     },
     {
-        "id": "928b76ab5408dd3b",
+        "id": "d19d48874fcd4fc8",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "getUsers",
-        "func": "msg.topic = \"SELECT * FROM users;\";\nreturn msg;",
+        "func": "msg.topic = \"SELECT * FROM user;\";\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1656,16 +800,16 @@
         "y": 240,
         "wires": [
             [
-                "97a4990893bcdfec"
+                "03a1ed159679f82a"
             ]
         ]
     },
     {
-        "id": "6c47b10d2e827288",
+        "id": "8513e7295079a550",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "insertUsers",
-        "func": "msg.topic = \"INSERT INTO users (login, pass) VALUES('\" + msg.payload.login + \"', '\" + msg.payload.pass + \"');\";\nreturn msg;\n",
+        "func": "msg.topic = \"INSERT INTO user (login, pass) VALUES('\" + msg.payload.login + \"', '\" + msg.payload.pass + \"');\";\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1676,32 +820,32 @@
         "y": 300,
         "wires": [
             [
-                "31bfabe050011360"
+                "61b5e4aaabf7040b"
             ]
         ]
     },
     {
-        "id": "31bfabe050011360",
+        "id": "61b5e4aaabf7040b",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ConexionDB",
-        "x": 570,
+        "name": "aiot.db",
+        "x": 550,
         "y": 300,
         "wires": [
             [
-                "796c9b446ae47e1f"
+                "161f120f1fe257ca"
             ]
         ]
     },
     {
-        "id": "00bcc5a7106e0548",
+        "id": "1df792bc7384b47f",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "updateUsers",
-        "func": "msg.topic = \"UPDATE users SET login = '\" + msg.payload.login + \"', pass= '\" + msg.payload.pass + \"' WHERE id =\"+msg.payload.id+\";\";\nreturn msg; ",
+        "func": "msg.topic = \"UPDATE user SET login = '\" + msg.payload.login + \"', pass= '\" + msg.payload.pass + \"' WHERE id =\"+msg.payload.id+\";\";\nreturn msg; ",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1712,16 +856,16 @@
         "y": 360,
         "wires": [
             [
-                "29ce82cc4ac6fdd8"
+                "3fa693c84dd654c7"
             ]
         ]
     },
     {
-        "id": "c9bfd86db88f3bc7",
+        "id": "a06f6760c656f8a8",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "deleteUser",
-        "func": "msg.topic = \"DELETE FROM users \"+\n \"WHERE id =\"+msg.payload.id+\";\";\nreturn msg;",
+        "func": "msg.topic = \"DELETE FROM user \"+\n \"WHERE id =\"+msg.payload.id+\";\";\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1732,46 +876,46 @@
         "y": 420,
         "wires": [
             [
-                "134464adf13293e5"
+                "3639b2c0598f7123"
             ]
         ]
     },
     {
-        "id": "29ce82cc4ac6fdd8",
+        "id": "3fa693c84dd654c7",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ConexionDB",
-        "x": 570,
+        "name": "aiot.db",
+        "x": 550,
         "y": 360,
         "wires": [
             [
-                "7db0d5769185d742"
+                "8edb69b32a08bac4"
             ]
         ]
     },
     {
-        "id": "134464adf13293e5",
+        "id": "3639b2c0598f7123",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ConexionDB",
-        "x": 570,
+        "name": "aiot.db",
+        "x": 550,
         "y": 420,
         "wires": [
             [
-                "7db0d5769185d742"
+                "8edb69b32a08bac4"
             ]
         ]
     },
     {
-        "id": "ba6e5d2afc4d8886",
+        "id": "9a0176d89711710c",
         "type": "json",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "property": "payload",
         "action": "",
@@ -1780,14 +924,14 @@
         "y": 240,
         "wires": [
             [
-                "cda4c1986cfd4764"
+                "311a7413a5c4ca38"
             ]
         ]
     },
     {
-        "id": "cda4c1986cfd4764",
+        "id": "311a7413a5c4ca38",
         "type": "template",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "field": "payload",
         "fieldType": "msg",
@@ -1799,16 +943,16 @@
         "y": 240,
         "wires": [
             [
-                "b8c2a95df2e85e2d"
+                "4b254d49b8cfdd30"
             ]
         ]
     },
     {
-        "id": "796c9b446ae47e1f",
+        "id": "161f120f1fe257ca",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "getLastSaved",
-        "func": "msg.topic = \n\"SELECT * FROM users WHERE id =\"+ \n\"(SELECT MAX(id) FROM users);\";\nreturn msg;",
+        "func": "msg.topic = \n\"SELECT * FROM user WHERE id =\"+ \n\"(SELECT MAX(id) FROM users);\";\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1819,14 +963,14 @@
         "y": 460,
         "wires": [
             [
-                "5ba9be9ac9d2bf6e"
+                "0bc467525f427bfe"
             ]
         ]
     },
     {
-        "id": "7db0d5769185d742",
+        "id": "8edb69b32a08bac4",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "reload",
         "func": "msg.payload = msg.result;\nreturn msg;",
         "outputs": 1,
@@ -1839,14 +983,14 @@
         "y": 360,
         "wires": [
             [
-                "b8c2a95df2e85e2d"
+                "4b254d49b8cfdd30"
             ]
         ]
     },
     {
-        "id": "925307c0832c2367",
+        "id": "a4dc7c2c19909ea9",
         "type": "http response",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "statusCode": "",
         "headers": {},
@@ -1855,9 +999,9 @@
         "wires": []
     },
     {
-        "id": "8ee5ce0bf656637b",
+        "id": "1b80bdd463a56323",
         "type": "http response",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "statusCode": "",
         "headers": {},
@@ -1866,9 +1010,9 @@
         "wires": []
     },
     {
-        "id": "51c382a60891af6c",
+        "id": "fe7e1553b3cf649b",
         "type": "http in",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "url": "/actuators/index",
         "method": "get",
@@ -1878,14 +1022,14 @@
         "y": 1220,
         "wires": [
             [
-                "a1376e6c9e4a8cf9"
+                "4ee5275705122955"
             ]
         ]
     },
     {
-        "id": "f5bb9cdfaf601a24",
+        "id": "bb944c7c01c29375",
         "type": "http in",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "url": "/actuators/insert",
         "method": "post",
@@ -1895,14 +1039,14 @@
         "y": 1280,
         "wires": [
             [
-                "ec0aef4c6d75dfb6"
+                "437501baa5c108cf"
             ]
         ]
     },
     {
-        "id": "7553027a6fa18520",
+        "id": "7a8f7b25b35f0b63",
         "type": "http in",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "url": "/actuators/update",
         "method": "put",
@@ -1912,30 +1056,30 @@
         "y": 1340,
         "wires": [
             [
-                "0a5fb4f0693f819d"
+                "688490c05356af9a"
             ]
         ]
     },
     {
-        "id": "8fc2bc972876b993",
+        "id": "6c3cda539a6ae346",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ConexionDB",
-        "x": 510,
+        "name": "aiot.db",
+        "x": 490,
         "y": 1220,
         "wires": [
             [
-                "f452a1a0abd6eebb"
+                "f5460999ef487630"
             ]
         ]
     },
     {
-        "id": "a1376e6c9e4a8cf9",
+        "id": "4ee5275705122955",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "getActuators",
         "func": "msg.topic = \"SELECT * FROM actuators;\";\nreturn msg;",
         "outputs": 1,
@@ -1948,14 +1092,14 @@
         "y": 1220,
         "wires": [
             [
-                "8fc2bc972876b993"
+                "6c3cda539a6ae346"
             ]
         ]
     },
     {
-        "id": "ec0aef4c6d75dfb6",
+        "id": "437501baa5c108cf",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "insertActuators",
         "func": "msg.topic = \"INSERT INTO actuators (name, type) VALUES ('\" + \n    msg.payload.name + \"', '\" + \n    msg.payload.type + \"');\";\nreturn msg;\n",
         "outputs": 1,
@@ -1968,30 +1112,30 @@
         "y": 1280,
         "wires": [
             [
-                "3cce03f6b8994b36"
+                "a718066c85658cc4"
             ]
         ]
     },
     {
-        "id": "3cce03f6b8994b36",
+        "id": "a718066c85658cc4",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ConexionDB",
-        "x": 510,
+        "name": "aiot.db",
+        "x": 490,
         "y": 1280,
         "wires": [
             [
-                "58daae7e2a1a85e4"
+                "5fedbee87fba0b97"
             ]
         ]
     },
     {
-        "id": "0a5fb4f0693f819d",
+        "id": "688490c05356af9a",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "updateActuators",
         "func": "msg.topic = \"UPDATE actuators SET name = '\" + \n    msg.payload.name + \"', type = '\" + \n    msg.payload.type + \"' WHERE id = '\" + \n    msg.payload.id + \"';\";\n\nreturn msg; ",
         "outputs": 1,
@@ -2004,14 +1148,14 @@
         "y": 1340,
         "wires": [
             [
-                "573cd2a2981e6c10"
+                "6c8ac370a0c371ec"
             ]
         ]
     },
     {
-        "id": "871f0e5028e869cd",
+        "id": "b2c65cc989c94b1c",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "deleteSensor",
         "func": "msg.topic = \"DELETE FROM actuators WHERE id = '\" + \n    msg.payload.id + \"';\";\nreturn msg;",
         "outputs": 1,
@@ -2024,46 +1168,46 @@
         "y": 1400,
         "wires": [
             [
-                "d4b7d024bd10a501"
+                "393bc8c5d8ef4afc"
             ]
         ]
     },
     {
-        "id": "573cd2a2981e6c10",
+        "id": "6c8ac370a0c371ec",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ConexionDB",
-        "x": 510,
+        "name": "aiot.db",
+        "x": 490,
         "y": 1340,
         "wires": [
             [
-                "1f1a5b47c4ed7bb4"
+                "c3d84c91491f7c11"
             ]
         ]
     },
     {
-        "id": "d4b7d024bd10a501",
+        "id": "393bc8c5d8ef4afc",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ConexionDB",
-        "x": 510,
+        "name": "aiot.db",
+        "x": 490,
         "y": 1400,
         "wires": [
             [
-                "1f1a5b47c4ed7bb4"
+                "c3d84c91491f7c11"
             ]
         ]
     },
     {
-        "id": "f452a1a0abd6eebb",
+        "id": "f5460999ef487630",
         "type": "json",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "property": "payload",
         "action": "",
@@ -2072,14 +1216,14 @@
         "y": 1220,
         "wires": [
             [
-                "6f221a2c49505be8"
+                "420fe8e314d3f301"
             ]
         ]
     },
     {
-        "id": "6f221a2c49505be8",
+        "id": "420fe8e314d3f301",
         "type": "template",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "field": "payload",
         "fieldType": "msg",
@@ -2091,14 +1235,14 @@
         "y": 1220,
         "wires": [
             [
-                "de88010ed63369df"
+                "a3c0ef0536d49a5a"
             ]
         ]
     },
     {
-        "id": "58daae7e2a1a85e4",
+        "id": "5fedbee87fba0b97",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "getLastSaved",
         "func": "msg.topic = \n\"SELECT * FROM actuators WHERE id =\"+ \n\"(SELECT MAX(id) FROM actuators);\";\nreturn msg;",
         "outputs": 1,
@@ -2111,30 +1255,30 @@
         "y": 1440,
         "wires": [
             [
-                "491912e9ea4f1dc6"
+                "bef1b17c1617b8a2"
             ]
         ]
     },
     {
-        "id": "491912e9ea4f1dc6",
+        "id": "bef1b17c1617b8a2",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ddi2",
+        "name": "aiot.db",
         "x": 850,
         "y": 1400,
         "wires": [
             [
-                "093de58764c2f150"
+                "beedd1e48aad3e46"
             ]
         ]
     },
     {
-        "id": "093de58764c2f150",
+        "id": "beedd1e48aad3e46",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "showSaved",
         "func": "var item = {\n    id: msg.payload[0].id,\n    name: msg.payload[0].name,\n    type: msg.payload[0].type,\n    record_at: msg.payload[0].record_at\n};\n\nif (!item.id || !item.name || !item.type || !item.record_at) {\n    msg.statusCode = 400;\n    msg.payload = null;\n    return msg;\n}\nmsg.payload = item;\nreturn msg;\n",
         "outputs": 1,
@@ -2147,14 +1291,14 @@
         "y": 1340,
         "wires": [
             [
-                "de88010ed63369df"
+                "a3c0ef0536d49a5a"
             ]
         ]
     },
     {
-        "id": "1f1a5b47c4ed7bb4",
+        "id": "c3d84c91491f7c11",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "reload",
         "func": "msg.payload = msg.result;\nreturn msg;",
         "outputs": 1,
@@ -2167,14 +1311,14 @@
         "y": 1340,
         "wires": [
             [
-                "de88010ed63369df"
+                "a3c0ef0536d49a5a"
             ]
         ]
     },
     {
-        "id": "de88010ed63369df",
+        "id": "a3c0ef0536d49a5a",
         "type": "http response",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "statusCode": "",
         "headers": {},
@@ -2183,9 +1327,9 @@
         "wires": []
     },
     {
-        "id": "2d7d9aabf55720d9",
+        "id": "bf1f26a4c6880d3b",
         "type": "http in",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "url": "/actuatorsdetalles/index",
         "method": "get",
@@ -2195,14 +1339,14 @@
         "y": 1520,
         "wires": [
             [
-                "f99205df314565fd"
+                "df25381bbf4e30b5"
             ]
         ]
     },
     {
-        "id": "9a51f85732347da5",
+        "id": "284a11e57bd836d5",
         "type": "http in",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "url": "/actuatorsdetalles/insert",
         "method": "post",
@@ -2212,14 +1356,14 @@
         "y": 1580,
         "wires": [
             [
-                "f0a31630378e1e50"
+                "5fecaa7816ed8428"
             ]
         ]
     },
     {
-        "id": "a9fafbdddd33aec2",
+        "id": "b8984d9f5e1f0cc5",
         "type": "http in",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "url": "/actuatorsdetalles/update",
         "method": "put",
@@ -2229,32 +1373,32 @@
         "y": 1640,
         "wires": [
             [
-                "13e5d1d2567f36b2"
+                "784f4da1b3f81d17"
             ]
         ]
     },
     {
-        "id": "aef2bbfd7c1cba4f",
+        "id": "d2e2481465ef4550",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ConexionDB",
-        "x": 570,
+        "name": "aiot.db",
+        "x": 550,
         "y": 1520,
         "wires": [
             [
-                "0f93b6f88b918c66"
+                "43597981bc33f82a"
             ]
         ]
     },
     {
-        "id": "f99205df314565fd",
+        "id": "df25381bbf4e30b5",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "getActuatordet",
-        "func": "msg.topic = \"SELECT * FROM actuator_details;\";\nreturn msg;",
+        "func": "msg.topic = \"SELECT * FROM actuators_details;\";\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -2265,16 +1409,16 @@
         "y": 1520,
         "wires": [
             [
-                "aef2bbfd7c1cba4f"
+                "d2e2481465ef4550"
             ]
         ]
     },
     {
-        "id": "f0a31630378e1e50",
+        "id": "5fecaa7816ed8428",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "insertActuatordet",
-        "func": "msg.topic = \"INSERT INTO actuator_details (actuator_id, user_id, state) VALUES ('\" +\n    msg.payload.actuator_id + \"', '\" +\n    msg.payload.user_id + \"', '\" +\n    msg.payload.state + \"');\";\nreturn msg;\n",
+        "func": "msg.topic = \"INSERT INTO actuators_details (actuator_id, user_id, state) VALUES ('\" +\n    msg.payload.actuator_id + \"', '\" +\n    msg.payload.user_id + \"', '\" +\n    msg.payload.state + \"');\";\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -2285,32 +1429,32 @@
         "y": 1580,
         "wires": [
             [
-                "2ac18b7676859379"
+                "3d621c652dfd0e12"
             ]
         ]
     },
     {
-        "id": "2ac18b7676859379",
+        "id": "3d621c652dfd0e12",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ConexionDB",
-        "x": 570,
+        "name": "aiot.db",
+        "x": 550,
         "y": 1580,
         "wires": [
             [
-                "1572fbfdaf335f78"
+                "284eb4565e7625b5"
             ]
         ]
     },
     {
-        "id": "13e5d1d2567f36b2",
+        "id": "784f4da1b3f81d17",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "updateActuatordet",
-        "func": "msg.topic = \"UPDATE actuator_details SET actuator_id = '\" + \n    msg.payload.actuator_id + \"', user_id = '\" + \n    msg.payload.user_id + \"', state = '\" + \n    msg.payload.state + \"' WHERE id = '\" + \n    msg.payload.id + \"';\";\nreturn msg; ",
+        "func": "msg.topic = \"UPDATE actuators_details SET actuator_id = '\" + \n    msg.payload.actuator_id + \"', user_id = '\" + \n    msg.payload.user_id + \"', state = '\" + \n    msg.payload.state + \"' WHERE id = '\" + \n    msg.payload.id + \"';\";\nreturn msg; ",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -2321,16 +1465,16 @@
         "y": 1640,
         "wires": [
             [
-                "d49549250121a3c5"
+                "564f268a23cfdc1a"
             ]
         ]
     },
     {
-        "id": "2bf356a1a95184c8",
+        "id": "6088f54f023e1e0c",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "deleteActuatordet",
-        "func": "msg.topic = \"DELETE FROM actuator_details WHERE id = '\" + \n    msg.payload.id + \"';\";\nreturn msg;",
+        "func": "msg.topic = \"DELETE FROM actuators_details WHERE id = '\" + \n    msg.payload.id + \"';\";\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -2341,46 +1485,46 @@
         "y": 1700,
         "wires": [
             [
-                "6537c466938aa10f"
+                "874e355f068e9e54"
             ]
         ]
     },
     {
-        "id": "d49549250121a3c5",
+        "id": "564f268a23cfdc1a",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ConexionDB",
-        "x": 570,
+        "name": "aiot.db",
+        "x": 550,
         "y": 1640,
         "wires": [
             [
-                "d9dd8310fe9512e7"
+                "798b06a230cdb353"
             ]
         ]
     },
     {
-        "id": "6537c466938aa10f",
+        "id": "874e355f068e9e54",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ConexionDB",
-        "x": 590,
+        "name": "aiot.db",
+        "x": 570,
         "y": 1700,
         "wires": [
             [
-                "d9dd8310fe9512e7"
+                "798b06a230cdb353"
             ]
         ]
     },
     {
-        "id": "0f93b6f88b918c66",
+        "id": "43597981bc33f82a",
         "type": "json",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "property": "payload",
         "action": "",
@@ -2389,14 +1533,14 @@
         "y": 1520,
         "wires": [
             [
-                "d0acd79236ec7a9f"
+                "8b3f79db1ebfa9bc"
             ]
         ]
     },
     {
-        "id": "d0acd79236ec7a9f",
+        "id": "8b3f79db1ebfa9bc",
         "type": "template",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "field": "payload",
         "fieldType": "msg",
@@ -2408,16 +1552,16 @@
         "y": 1520,
         "wires": [
             [
-                "116558b1e60fb9cd"
+                "ad123ded5aa22674"
             ]
         ]
     },
     {
-        "id": "1572fbfdaf335f78",
+        "id": "284eb4565e7625b5",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "getLastSaved",
-        "func": "msg.topic = \n\"SELECT * FROM actuator_details WHERE id =\"+ \n\"(SELECT MAX(id) FROM actuator_details);\";\nreturn msg;",
+        "func": "msg.topic = \n\"SELECT * FROM actuators_details WHERE id =\"+ \n\"(SELECT MAX(id) FROM actuator_details);\";\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -2428,30 +1572,30 @@
         "y": 1740,
         "wires": [
             [
-                "3e4076314afb1a06"
+                "fccb9ac0b6a831a2"
             ]
         ]
     },
     {
-        "id": "3e4076314afb1a06",
+        "id": "fccb9ac0b6a831a2",
         "type": "sqlite",
-        "z": "f0b5649d2b2a1823",
-        "mydb": "34df2df97b41a861",
+        "z": "3b6a2dc454868611",
+        "mydb": "e99386411f08c417",
         "sqlquery": "msg.topic",
         "sql": "",
-        "name": "ddi2",
+        "name": "aiot.db",
         "x": 910,
         "y": 1700,
         "wires": [
             [
-                "74c4ad34ebd5f2a9"
+                "72c7747db8eee1d6"
             ]
         ]
     },
     {
-        "id": "74c4ad34ebd5f2a9",
+        "id": "72c7747db8eee1d6",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "showSaved",
         "func": "var item = {\n    id: msg.payload[0].id,\n    actuator_id: msg.payload[0].actuator_id,\n    user_id: msg.payload[0].user_id,\n    state: msg.payload[0].state,\n    record_at: msg.payload[0].record_at\n};\n\nif (!item.id || !item.actuator_id || !item.user_id || !item.state || !item.record_at) {\n    msg.statusCode = 400;\n    msg.payload = null;\n    return msg;\n}\nmsg.payload = item;\nreturn msg;\n",
         "outputs": 1,
@@ -2464,14 +1608,14 @@
         "y": 1640,
         "wires": [
             [
-                "116558b1e60fb9cd"
+                "ad123ded5aa22674"
             ]
         ]
     },
     {
-        "id": "d9dd8310fe9512e7",
+        "id": "798b06a230cdb353",
         "type": "function",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "reload",
         "func": "msg.payload = msg.result;\nreturn msg;",
         "outputs": 1,
@@ -2484,14 +1628,14 @@
         "y": 1640,
         "wires": [
             [
-                "116558b1e60fb9cd"
+                "ad123ded5aa22674"
             ]
         ]
     },
     {
-        "id": "116558b1e60fb9cd",
+        "id": "ad123ded5aa22674",
         "type": "http response",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "statusCode": "",
         "headers": {},
@@ -2500,9 +1644,9 @@
         "wires": []
     },
     {
-        "id": "cf9b4eb7249bdca0",
+        "id": "0420e565a52f44f4",
         "type": "http in",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "url": "/actuators/delete",
         "method": "delete",
@@ -2512,14 +1656,14 @@
         "y": 1400,
         "wires": [
             [
-                "871f0e5028e869cd"
+                "b2c65cc989c94b1c"
             ]
         ]
     },
     {
-        "id": "8667e9f22da65f07",
+        "id": "3d7322c2ba837749",
         "type": "http in",
-        "z": "f0b5649d2b2a1823",
+        "z": "3b6a2dc454868611",
         "name": "",
         "url": "/actuatorsdetalles/delete",
         "method": "delete",
@@ -2529,8 +1673,14 @@
         "y": 1700,
         "wires": [
             [
-                "2bf356a1a95184c8"
+                "6088f54f023e1e0c"
             ]
         ]
+    },
+    {
+        "id": "e99386411f08c417",
+        "type": "sqlitedb",
+        "db": "\\Users\\Luis Manuel\\aiot.db",
+        "mode": "RWC"
     }
 ]
